@@ -1,5 +1,5 @@
 syntax = "proto3";
-package cacher;
+package grpc.protos.cacher;
 
 service Cacher {
 	rpc Push (PushRequest) returns (Empty);

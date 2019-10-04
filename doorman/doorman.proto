@@ -1,5 +1,5 @@
 syntax = "proto3";
-package protobuf;
+package grpc.protos.protobuf;
 
 service VPNService {
     rpc ListConnections (ListConnectionsRequest) returns (ListConnectionsResponse);
