@@ -1,5 +1,5 @@
 syntax = "proto3";
-package hegel;
+package grpc.protos.hegel;
 
 service Hegel {
     rpc Get(GetRequest) returns (GetResponse);
